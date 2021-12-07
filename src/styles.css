@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+html, body {
+
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1 {
+
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+
+
+li {
+    list-style: none !important;
+    cursor: pointer;
+}
+
+.topNav {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom-style: inset;
+}
+
+.topNav ul {
+    display: flex;
+}
+
+.topNav li {
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

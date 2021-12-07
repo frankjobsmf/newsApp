@@ -1,0 +1,11 @@
+<div class="topNav">
+    
+    <h1>News App</h1>
+
+    <ul>
+        <li *ngFor="let menuItem of menuItems" [routerLink]="menuItem.path">
+            {{menuItem.name}}
+        </li>
+    </ul>
+
+</div>
